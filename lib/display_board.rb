@@ -11,7 +11,7 @@ def display_board(state)
   separator = '|'
   blank_space = " #{}"
   dash = '-----------'
-  puts blank_space + separator + blank_space + separator + blank_space
+  puts makeplay(state[0]) + separator + blank_space + separator + blank_space
   puts dash
   puts blank_space + separator + blank_space + separator + blank_space
   puts dash
