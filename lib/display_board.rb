@@ -4,6 +4,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def makeplay(x)
   return " #{x} "
+end
 
 
 def display_board(state)
