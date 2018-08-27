@@ -9,7 +9,7 @@ end
 
 def display_board(state)
   separator = '|'
-  blank_space = " #{}"
+  blank_space = '   '
   dash = '-----------'
   puts makeplay(state[0]) + separator + blank_space + separator + blank_space
   puts dash
