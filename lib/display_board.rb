@@ -17,3 +17,5 @@ def display_board(state)
   puts dash
   puts blank_space + separator + blank_space + separator + blank_space
 end
+
+display_board(board)
