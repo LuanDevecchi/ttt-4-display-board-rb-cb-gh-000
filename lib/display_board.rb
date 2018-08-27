@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board = ["X"," "," "," "," "," "," "," "," "]
+board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 
 def makeplay(x)
   return " #{x} "
